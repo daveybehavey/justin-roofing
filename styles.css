@@ -30,7 +30,7 @@ header {
     width: 100%;
     height: 110px;
     position:fixed;
-    border-bottom: 4px solid black;
+    border-bottom: 2px solid rgb(180, 154, 4);
     background-image: url("https://i.pinimg.com/736x/c8/9d/3f/c89d3ff27144b0d51e6f954a54ada718--exterior-colors-exterior-paint.jpg");
 }
 
@@ -47,6 +47,7 @@ margin: 0 auto;
 text-align: center;
 padding-top: 10px;
 padding-bottom: 10px;
+
 }
 
 header nav ul {
@@ -120,7 +121,8 @@ header #header-logo {
 }
 @media only screen and (max-width: 600px) {
 .image {
-    display: none;
+ width: 250px;
+ height: 80px;
 }
 }
 p {
