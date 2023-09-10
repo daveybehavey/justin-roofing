@@ -3,20 +3,23 @@
     margin: 0;
     text-decoration: none;
 }
+
 body {
     background-image: url("https://i.pinimg.com/736x/c8/9d/3f/c89d3ff27144b0d51e6f954a54ada718--exterior-colors-exterior-paint.jpg");
 }
 .image {
-width: 70vw;
-height: 50vh;
+width: 30vw;
+height: 30vh;
 min-height: 224px;
-border: 5px solid rgb(119, 118, 118);
+border: 5px solid rgb(75, 75, 75);
+border-right: 5px solid #302f2f;
+border-bottom: 5px solid #313131;
 }
 .welcome-div {
     background-image: url("https://c1.wallpaperflare.com/preview/492/854/355/shingle-wood-facade-cladding-wall.jpg");
     background-size: cover;
-    height: 80vh;
-    margin-top: 10vh;
+    height: calc(100vh - 110px);
+    margin-top: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,12 +60,10 @@ margin: 0 auto;
 width: fit-content;
 }
 header nav ul li {
-    /*NEXT 2 LINES CONFUSE ME, MIGHT DO THE SAME THING*/
     display: inline-block;
-    float: left;
-    /* NEXT LINE OF CODE BELOW REMOVES BULLET POINTS FROM NAV */
     list-style: none;
-    padding: 0 16px;
+    margin-left: 5px;
+    margin-right: 5px;
     
 }
 header nav ul li a {
@@ -78,14 +79,14 @@ header nav ul li a {
 @media only screen and (min-width: 1000px) {
 header #header-logo {
     /* NEXT 2 LINES BELOW WILL CENTER .header-logo */
-    margin: 20px 0;
+    margin: 5px 0;
     line-height: 45px;
     padding: 0 20px 0 40px;
     border-right: 3px solid goldenrod;
     float: left;
     font-size: 50px;
     position: relative;
-    top: -10px;
+    left: -25px
 
     }
     header nav ul {
@@ -99,14 +100,19 @@ header #header-logo {
     }
     /*NEXT LINE IS FOR HOVER MAY NEED TO BE REMOVED */
     nav a:hover {
-        color: #000
+        color: whitesmoke;
+        text-shadow: 2px 2.25px #000;
         }
+        #header-logo:hover {
+            color: whitesmoke;
+            text-shadow: 2px 2.25px #000;
+            }
         nav a::before {
             content: '';
             display: block;
             height: 5px;
             width: 100%;
-            background-color: #444;
+            background-color: gold;
         
             position: left;
             top: 0;
@@ -114,7 +120,7 @@ header #header-logo {
         
             transition: all ease-in-out 250ms;
         }
-        nav a:hover::before {
+        nav li a:hover::before {
             width: 100%;
         }
  
