@@ -7,14 +7,7 @@
 body {
     background-image: url("https://i.pinimg.com/736x/c8/9d/3f/c89d3ff27144b0d51e6f954a54ada718--exterior-colors-exterior-paint.jpg");
 }
-.image {
-width: 30vw;
-height: 30vh;
-min-height: 224px;
-border: 5px solid rgb(75, 75, 75);
-border-right: 5px solid #302f2f;
-border-bottom: 5px solid #313131;
-}
+
 .welcome-div {
     background-image: url("https://c1.wallpaperflare.com/preview/492/854/355/shingle-wood-facade-cladding-wall.jpg");
     background-size: cover;
@@ -43,13 +36,13 @@ font-family: 'Electrolize';
 font-size: 24px;
 font-weight: 900;
 color: gold;
-text-shadow: 2px 2.25px #968003;
+text-shadow: 1.25px 1.25px #968003;
 display: block;
 /* NEXT 2 LINES BELOW WILL CENTER .header-logo */
 margin: 0 auto;
 text-align: center;
 padding-top: 10px;
-padding-bottom: 10px;
+padding-bottom: 5px;
 
 }
 
@@ -61,32 +54,32 @@ width: fit-content;
 }
 header nav ul li {
     display: inline-block;
+    /* NEXT LINE OF CODE BELOW REMOVES BULLET POINTS FROM NAV */
     list-style: none;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 0 10px 0 10px;
     
 }
-header nav ul li a {
+header .nav-link {
     font-family: 'Electrolize';
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
     color: gold;
-    text-shadow: 2px 2.25px #968003;
+    text-shadow: 1.25px 1.25px #968003;
     text-transform: uppercase;
 }
 
-/* CODE BELOW ADJUSTS TO DESKTOP VIEW WHEN VIEWING ON DESKTOP */
+
 @media only screen and (min-width: 1000px) {
 header #header-logo {
     /* NEXT 2 LINES BELOW WILL CENTER .header-logo */
-    margin: 5px 0;
-    line-height: 45px;
+    margin: 10px 0;
+    line-height: 40px;
     padding: 0 20px 0 40px;
     border-right: 3px solid goldenrod;
     float: left;
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
-    left: -25px
+    left: -20px;
 
     }
     header nav ul {
@@ -94,20 +87,20 @@ header #header-logo {
         float: left;
         }
 
-        header nav ul li a {
+        header > nav > ul > li >a {
             line-height: 70px;
             font-size: 30px;
+
     }
-    /*NEXT LINE IS FOR HOVER MAY NEED TO BE REMOVED */
     nav a:hover {
         color: whitesmoke;
-        text-shadow: 2px 2.25px #000;
+        text-shadow: 1.25px 1.25px #111;
         }
         #header-logo:hover {
             color: whitesmoke;
-            text-shadow: 2px 2.25px #000;
-            }
-        nav a::before {
+            text-shadow: 1.25px 1.25px #111;
+        }
+        nav ul li a::before {
             content: '';
             display: block;
             height: 5px;
@@ -120,29 +113,35 @@ header #header-logo {
         
             transition: all ease-in-out 250ms;
         }
-        nav li a:hover::before {
+        nav a:hover::before {
             width: 100%;
         }
- 
 }
+
+
 @media only screen and (max-width: 600px) {
-.image {
- width: 250px;
- height: 80px;
-}
-}
-p {
-   height: 1000px;
-}
-
-@media only screen and (max-width: 385px) {
-    .nav-link {
-        font-size: 16px;
+    header .nav-link {
+        font-size: 24px
     }
-}
-
-@media only screen and (max-width: 325px) {
-    .nav-link {
-        font-size: 14px;
     }
-}
+
+    @media only screen and (max-width: 500px)
+    {
+        header nav .nav-link {
+            font-size: 20px
+        }
+    }
+
+    @media only screen and (max-width: 385px) {
+        header nav ul .nav-link {
+            font-size: 17px;
+            position: relative;
+            top: 5px;
+        }
+    }
+
+    @media only screen and (min-width: 325px) {
+        .nav-link {
+            font-size: 14px;
+        }
+    }
