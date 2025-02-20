@@ -26,6 +26,7 @@ body {
     display: block;
     border-top: 3px solid gold;
     border-bottom: 3px solid gold;
+    box-shadow: inset 5em 1em goldenrod;
 }
 
 header {
