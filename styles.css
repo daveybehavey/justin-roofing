@@ -101,6 +101,19 @@ header .nav-link {
     flex-direction: column;
     justify-content: center;
     flex: 1;
+      /* Base concrete gray */
+  background-color: #b0b0b0;
+  
+  /* Two radial gradients to add speckle/texture */
+  background-image:
+    radial-gradient(rgba(255,255,255,0.15) 1px, transparent 0),
+    radial-gradient(rgba(0,0,0,0.1) 1px, transparent 0);
+    
+  /* Define the size of the repeating pattern */
+  background-size: 20px 20px;
+  
+  /* Offset the second gradient to create a more natural look */
+  background-position: 0 0, 10px 10px;
 }
 
 .box1 ul {
