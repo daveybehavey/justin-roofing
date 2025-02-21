@@ -144,6 +144,9 @@ header .nav-link {
     align-items: center;
     justify-content: center;
     flex: 1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid red;
 }
 
 .gallery {
