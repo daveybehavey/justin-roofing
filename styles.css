@@ -96,25 +96,32 @@ header .nav-link {
 }
 
 .box1 {
-    background-color: #3498db;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex: 1;
-      /* Base concrete gray */
-  background-color: #b0b0b0;
-  
-  /* Two radial gradients to add speckle/texture */
-  background-image:
-    radial-gradient(rgba(255,255,255,0.15) 1px, transparent 0),
-    radial-gradient(rgba(0,0,0,0.1) 1px, transparent 0);
-    
-  /* Define the size of the repeating pattern */
-  background-size: 20px 20px;
-  
-  /* Offset the second gradient to create a more natural look */
-  background-position: 0 0, 10px 10px;
-}
+    margin: 0;
+      padding: 0;
+      /* Base concrete color */
+      background-color: #bfbfbf;
+      
+      /* Layered gradients to simulate concrete texture */
+      background-image:
+        /* Small light speckles */
+        radial-gradient(circle, rgba(255,255,255,0.2) 1px, transparent 0),
+        /* Small dark speckles */
+        radial-gradient(circle, rgba(0,0,0,0.1) 1px, transparent 0),
+        /* Diagonal linear texture for subtle variation */
+        linear-gradient(45deg, rgba(255,255,255,0.05) 25%, transparent 25%),
+        /* Opposite diagonal for contrast */
+        linear-gradient(-45deg, rgba(0,0,0,0.05) 25%, transparent 25%);
+      
+      /* Size for each layer of the texture */
+      background-size: 20px 20px, 20px 20px, 50px 50px, 50px 50px;
+      
+      /* Offsetting some layers to create a more natural look */
+      background-position: 0 0, 10px 10px, 0 0, 25px 25px;
+    }
 
 .box1 ul {
     list-style-type: none;
