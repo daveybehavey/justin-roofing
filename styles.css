@@ -146,21 +146,6 @@ header .nav-link {
     flex: 1;
 }
 
-.photo-boxes {
-    display: flex;
-    gap: 10px;
-}
-
-.photo-box {
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2px;
-}
 .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
