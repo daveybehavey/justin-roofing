@@ -168,7 +168,6 @@ header .nav-link {
 
 .footer {
     background-image: url("https://i.pinimg.com/736x/c8/9d/3f/c89d3ff27144b0d51e6f954a54ada718--exterior-colors-exterior-paint.jpg");
-    color: white;
     text-align: center;
     padding: 20px;
     display: flex;
@@ -177,8 +176,13 @@ header .nav-link {
     gap: 15px;
     height: 60px;
     width: 100%;
-    margin-top: auto;
     border-top: 2px solid grey;
+    font-family: 'Electrolize';
+    font-size: 10px;
+    font-weight: 900;
+    color: gold;
+    text-shadow: 1.25px 1.25px #968003;
+    margin: 0 auto;
     
 }
 
