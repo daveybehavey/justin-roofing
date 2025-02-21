@@ -175,6 +175,7 @@ header .nav-link {
     gap: 15px;
     height: 60px;
     width: 100%;
+    text-align: center;
     border-top: 2px solid grey;
     font-family: 'Electrolize';
     font-size: 10px;
@@ -188,9 +189,11 @@ header .nav-link {
 .footer .contact-item {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     text-decoration: none;
     color: gold;
+    
     
 }
 
