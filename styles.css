@@ -135,7 +135,7 @@ header .nav-link {
 }
 
 .box2 {
-    background-color: #e74c3c;
+    background-color: cream;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,7 +160,7 @@ header .nav-link {
 }
 
 .footer {
-    background-color: #222;
+    background-image: url("https://i.pinimg.com/736x/c8/9d/3f/c89d3ff27144b0d51e6f954a54ada718--exterior-colors-exterior-paint.jpg");
     color: white;
     text-align: center;
     padding: 20px;
