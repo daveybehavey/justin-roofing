@@ -146,7 +146,6 @@ header .nav-link {
     flex: 1;
     margin-top: 15px;
     margin-bottom: 15px;
-    border: 2px solid red;
 }
 
 .gallery {
@@ -160,6 +159,8 @@ header .nav-link {
             border-radius: 10px;
             object-fit: cover;
             transition: transform 0.3s ease-in-out;
+            border: 3px solid silver;
+            border-shadow: 2px grey;
         }
         .gallery img:hover {
             transform: scale(1.05);
