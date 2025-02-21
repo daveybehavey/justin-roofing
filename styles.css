@@ -85,10 +85,13 @@ header .nav-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
-    color: white;
     text-align: center;
     min-height: 50vh;
+    font-family: 'Electrolize';
+    font-size: 24px;
+    font-weight: 900;
+    color: gold;
+    text-shadow: 1.25px 1.25px #968003;
 }
 
 .box1, .box2 {
