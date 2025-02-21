@@ -161,6 +161,21 @@ header .nav-link {
     justify-content: center;
     border-radius: 2px;
 }
+.gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
 
 .footer {
     background-image: url("https://i.pinimg.com/736x/c8/9d/3f/c89d3ff27144b0d51e6f954a54ada718--exterior-colors-exterior-paint.jpg");
