@@ -160,7 +160,7 @@ header .nav-link {
             object-fit: cover;
             transition: transform 0.3s ease-in-out;
             border: 3px solid silver;
-            border-shadow: 2px grey;
+            box-shadow: 3px 3px grey;
         }
         .gallery img:hover {
             transform: scale(1.05);
