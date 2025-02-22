@@ -182,6 +182,7 @@ header .nav-link {
     color: gold;
     text-shadow: 0.75px 0.75px #968003;
     margin: 0 auto;
+    border-top: 2px solid rgb(180, 154, 4);
     
 }
 
