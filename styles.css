@@ -158,8 +158,8 @@ header .nav-link {
             border-radius: 10px;
             object-fit: cover;
             transition: transform 0.3s ease-in-out;
-            border: 3px solid silver;
-            box-shadow: 3px 3px grey;
+            border: 3px solid gold;
+            box-shadow: 3px 3px goldenrod;
         }
         .gallery img:hover {
             transform: scale(1.05);
