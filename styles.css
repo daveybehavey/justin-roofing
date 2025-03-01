@@ -102,10 +102,8 @@ header .nav-link {
     flex-direction: column;
     justify-content: center;
     flex: 1;
-    margin-top: 15px;
-    margin-bottom: 15px;
-      padding-top: 30px;
-      padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
       padding-left: 10px;
       /* Base concrete color */
       background-color: #bfbfbf;
