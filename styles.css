@@ -197,6 +197,7 @@ header .nav-link {
 .footer img {
     width: 24px;
     height: 24px;
+    margin-top: 10px;
 }
 .footer a {
     text-decoration: none;
