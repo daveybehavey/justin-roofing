@@ -203,5 +203,5 @@ header .nav-link {
     color: gold;
 }
 .footer span {
-    display: flex;
+    display: block;
     justify-content: center;
