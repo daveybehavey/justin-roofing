@@ -165,6 +165,11 @@ header .nav-link {
         .gallery img:hover {
             transform: scale(1.05);
         }
+.cont-button {
+    length: 50px;
+    height: 25px;
+    background-color: goldenrod;
+}
 
 .footer {
     background-image: url("https://i.pinimg.com/736x/c8/9d/3f/c89d3ff27144b0d51e6f954a54ada718--exterior-colors-exterior-paint.jpg");
