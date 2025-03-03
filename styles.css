@@ -177,6 +177,7 @@ header .nav-link {
     height: 25px;
     background-color: goldenrod;
     border-radius: 5px;
+    text-align: center;
 }
 
 .footer {
