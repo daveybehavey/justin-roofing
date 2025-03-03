@@ -170,7 +170,7 @@ header .nav-link {
     height: 200px;
     background-image: url("https://i.pinimg.com/736x/c8/9d/3f/c89d3ff27144b0d51e6f954a54ada718--exterior-colors-exterior-paint.jpg");
     display: flex; 
-    flex-direction: center;
+    justify-content: center;
 }
 .cont-button {
     width: 50px;
