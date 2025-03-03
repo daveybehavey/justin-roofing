@@ -128,9 +128,7 @@ header .nav-link {
 .box1 ul {
     list-style-type: none;
     padding: 0;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    text-align: left;
 }
 
 .box1 li {
