@@ -183,7 +183,7 @@ header .nav-link {
     font-size: 12px;
     font-weight: 900;
     color: white;
-    text-shadow: 0.5px 0.5px silver;
+    text-shadow: 1px 1px #787878;
 }
 
 .footer {
