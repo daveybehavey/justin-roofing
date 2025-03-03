@@ -173,8 +173,8 @@ header .nav-link {
     justify-content: center;
 }
 .cont-button {
-    width: 50px;
-    height: 25px;
+    width: 60;
+    height: 30px;
     background-color: goldenrod;
     border-radius: 5px;
     text-align: center;
