@@ -176,6 +176,7 @@ header .nav-link {
     width: 50px;
     height: 25px;
     background-color: goldenrod;
+    border-radius: 5px;
 }
 
 .footer {
