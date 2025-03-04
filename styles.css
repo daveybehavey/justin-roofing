@@ -231,12 +231,12 @@ header .nav-link {
 }
 
 .services-body {
-padding-top: 175px;
+padding-top: 175px 0px 175px;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content: space-evenly;
 }
-.services {
+.service {
 
 }
 
