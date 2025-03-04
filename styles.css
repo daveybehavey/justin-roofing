@@ -239,8 +239,14 @@ justify-content: space-evenly;
 .service {
 padding: 15px;
 }
-.service h2 {
+.service h2, {
 color: white;
 font-family: Electrolize;
 }
+.service p {
+color: white;
+font-family: Electrolize;
+}
+
+
 
