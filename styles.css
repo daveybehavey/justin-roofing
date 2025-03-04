@@ -232,4 +232,11 @@ header .nav-link {
 
 .services-body {
 padding-top: 175px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
+.services {
+
+}
+
