@@ -231,7 +231,7 @@ header .nav-link {
 }
 
 .services-body {
-padding: 175px 0px 175px;
+padding: 150px 0px 30px;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
