@@ -231,12 +231,14 @@ header .nav-link {
 }
 
 .services-body {
-padding-top: 175px 0px 175px;
+padding: 175px 0px 175px;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
 }
 .service {
-
+color: white;
+font-family: Electrolize;
+padding: 15px;
 }
 
