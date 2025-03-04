@@ -172,7 +172,7 @@ header .nav-link {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    white-space: no-wrap;
+    white-space: nowrap;
     
 }
 .cont-button {
