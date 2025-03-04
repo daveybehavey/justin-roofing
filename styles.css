@@ -173,7 +173,7 @@ header .nav-link {
     align-items: center;
 }
 .cont-button {
-    margin: 15px auto;
+    margin: 15px auto 15px;
     width: 60;
     height: 30px;
     background-color: goldenrod;
