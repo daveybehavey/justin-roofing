@@ -177,7 +177,7 @@ header .nav-link {
 }
 .cont-button {
     margin: 15px;
-    
+    height: 20px
     background-color: goldenrod;
     border-radius: 5px;
     text-align: center;
