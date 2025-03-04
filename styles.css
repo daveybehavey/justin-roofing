@@ -171,15 +171,13 @@ header .nav-link {
     display: flex; 
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 40px;
+   
     
     
 }
 .cont-button {
     margin: 15px auto 15px;
-    height: 40px;
-    width: 80px;
+    
     background-color: goldenrod;
     border-radius: 5px;
     text-align: center;
