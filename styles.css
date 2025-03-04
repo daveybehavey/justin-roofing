@@ -174,11 +174,12 @@ header .nav-link {
     overflow: hidden;
     white-space: nowrap;
     
+    
 }
 .cont-button {
     margin: 15px auto 15px;
-    width: 60px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     background-color: goldenrod;
     border-radius: 5px;
     text-align: center;
