@@ -237,8 +237,10 @@ flex-direction: column;
 justify-content: space-evenly;
 }
 .service {
+padding: 15px;
+}
+.service h2 {
 color: white;
 font-family: Electrolize;
-padding: 15px;
 }
 
