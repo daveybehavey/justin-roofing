@@ -67,8 +67,8 @@ header .nav-link {
     font-family: 'Electrolize';
     font-size: 20px;
     font-weight: 500;
-    color: gold;
-    text-shadow: 1.25px 1.25px #968003;
+    color: white;
+    text-shadow: 1.25px 1.25px silver;
     text-transform: uppercase;
     white-space: nowrap;
 }
