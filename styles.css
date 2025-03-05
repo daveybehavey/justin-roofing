@@ -229,7 +229,7 @@ header .nav-link {
 }
 
 .services-body {
-padding: 150px 0px 30px;
+padding: 145px 0px 30px;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
@@ -240,6 +240,10 @@ padding: 15px;
 .service h2 {
 color: gold;
 font-family: Electrolize;
+}
+.service h1 {
+    color: white;
+    font-family: Electrolize;
 }
 .service p {
 color: white;
