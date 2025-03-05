@@ -130,6 +130,8 @@ header .nav-link {
     padding: 0;
     padding-top: 15px;
     text-align: left;
+    font-size: 12px;
+    text-shadow: 1px 1px #968003;
 }
 
 .box2 {
