@@ -76,7 +76,7 @@ header .nav-link {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     min-height: calc(100vh - 170px);
 }
 
