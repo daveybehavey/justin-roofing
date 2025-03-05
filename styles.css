@@ -128,11 +128,11 @@ header .nav-link {
 
 .box1 h2 {
     padding: 0;
-    padding-top: 30px;
+    padding-top: 20px;
     text-align: left;
     font-size: 16px;
-    color: white;
-    text-shadow: 0.75px 0.75px silver;
+    color: gold;
+    text-shadow: 0.75px 0.75px goldenrod;
 }
 
 .box2 {
