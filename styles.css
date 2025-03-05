@@ -13,8 +13,8 @@ body {
 .welcome-div {
     background-image: url("https://c1.wallpaperflare.com/preview/492/854/355/shingle-wood-facade-cladding-wall.jpg");
     background-size: cover;
-    height: calc(100vh - 100px);
-    margin-top: 90px;
+    height: calc(100vh - 90px);
+    margin-top: 95px;
     display: flex;
     justify-content: center;
     align-items: center;
