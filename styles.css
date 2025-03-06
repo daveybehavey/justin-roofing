@@ -246,6 +246,8 @@ font-family: Electrolize;
     font-family: Electrolize;
     text-align: left;
     font-size: 17px;
+    max-width: 80%;
+    margin: 0 10%;
 }
 .service p {
 color: white;
