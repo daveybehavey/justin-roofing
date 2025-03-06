@@ -244,6 +244,8 @@ font-family: Electrolize;
 .service h1 {
     color: white;
     font-family: Electrolize;
+    text-align: left;
+    font-size: 17px;
 }
 .service p {
 color: white;
