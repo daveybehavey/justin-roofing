@@ -68,7 +68,7 @@ header .nav-link {
     font-size: 20px;
     font-weight: 500;
     color: white;
-    text-shadow: 1.25px 1.25px silver;
+    text-shadow: 1px 1px silver;
     text-transform: uppercase;
     white-space: nowrap;
 }
