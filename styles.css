@@ -56,11 +56,14 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
+    position: relative;
+    top: 9px;
 }
 
 header nav ul li {
     list-style: none;
     padding: 0 5px;
+
 }
 
 header .nav-link {
