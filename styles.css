@@ -150,6 +150,8 @@ header .nav-link {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 10px;
+  border: 2px gold;
+  border-shadow: 1px 1px goldenrod;
 }
 
 .gallery img {
