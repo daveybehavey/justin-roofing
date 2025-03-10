@@ -159,8 +159,7 @@ header .nav-link {
   height: auto;
   object-fit: cover; /* images properly contained */
   transition: all 0.3s ease;  /* smooth transition */
-  border: 2px gold;
-  border-shadow: 1px 1px goldenrod;
+  border: 2px solid goldenrod;
 }
 
 /* For desktop */
