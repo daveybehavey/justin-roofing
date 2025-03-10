@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("https://i.pinimg.com/736x/c8/9d/3f/c89d3ff27144b0d51e6f954a54ada718--exterior-colors-exterior-paint.jpg");
+    background-image: url('bg1.webp');
 }
 
 .welcome-div {
@@ -35,7 +35,7 @@ header {
     width: 100%;
     height: 110px;
     border-bottom: 2px solid darkgoldenrod;
-    background-image: url("https://i.pinimg.com/736x/c8/9d/3f/c89d3ff27144b0d51e6f954a54ada718--exterior-colors-exterior-paint.jpg");
+    background-image: url('bg1.webp');
 }
 
 header #header-logo {
@@ -111,13 +111,13 @@ header .nav-link {
       
       /* Layered gradients to simulate concrete texture */
       background-image:
-        /* Small light speckles */
+        /* light speckles */
         radial-gradient(circle, rgba(255,255,255,0.2) 1px, transparent 0),
-        /* Small dark speckles */
+        /* dark speckles */
         radial-gradient(circle, rgba(0,0,0,0.1) 1px, transparent 0),
         /* Diagonal linear texture for subtle variation */
         linear-gradient(45deg, rgba(255,255,255,0.05) 25%, transparent 25%),
-        /* Opposite diagonal for contrast */
+        /* Opposite diagonal */
         linear-gradient(-45deg, rgba(0,0,0,0.05) 25%, transparent 25%);
       
       /* Size for each layer of the texture */
