@@ -150,8 +150,6 @@ header .nav-link {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 10px;
-  border: 2px gold;
-  border-shadow: 1px 1px goldenrod;
 }
 
 .gallery img {
@@ -159,12 +157,14 @@ header .nav-link {
   height: auto;
   object-fit: cover; /* images properly contained */
   transition: all 0.3s ease;  /* smooth transition */
+  border: 2px gold;
+  border-shadow: 1px 1px goldenrod;
 }
 
 /* For desktop */
 @media screen and (min-width: 1024px) {
   .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Larger column size */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Larger column size */
   }
 
   .gallery img {
