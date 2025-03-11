@@ -56,7 +56,7 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    top: 4px;
+    top: 3px;
 }
 
 header nav ul li {
