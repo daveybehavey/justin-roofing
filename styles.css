@@ -174,10 +174,11 @@ header .nav-link {
     width: 100%; /* Stays at full width */
     height: auto;
   }
-}
-.last-img {
+    .last-img {
     grid-column: 2;
 }
+}
+
 .contact-us {
     margin-bottom: 15px;
 
