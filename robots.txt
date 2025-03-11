@@ -1,0 +1,4 @@
+User-agent: *
+User-agent:Googlebot
+User-agent:Googlebot_Mobile
+User-agent: bingbot
