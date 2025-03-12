@@ -4,15 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
-    <link href="styles.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
 </head>
-<body bgcolor="black">
+<body>
     <header>
         <nav>
-           <a id="header-logo" href="index.html">VANCOUVER ISLAND PRO ROOFING</a>
+            <a id="header-logo" href="index.html">VANCOUVER ISLAND PRO ROOFING</a>
             <ul class="navbar-links">
                 <li><a class="nav-link" href="index.html">About</a></li>
                 <li><a class="nav-link" href="services.html">Services</a></li>
@@ -22,65 +18,55 @@
     </header>
     <div class="services-body">
         <div class="service">
-            <h1>At Vancouver Island Pro Roofing, we provide a comprehensive range of roofing services suited for the conditions of Vancouver Island. From new installations to repairs and ongoing maintenance, our team is equipped to deliver durable, high-quality solutions. Explore the list of services below to learn more about how we can assist with all your roofing needs.
-</h1>
+            <h1>At Vancouver Island Pro Roofing, we provide a comprehensive range of roofing services suited for the conditions of Vancouver Island.</h1>
         </div>
         <div class="service">
             <h2>New Roofs</h2>
-            <p>We specialize in installing brand-new roofs for homes and commercial properties, using high-quality materials to ensure long-lasting protection.</p>
+            <p>We specialize in installing brand-new roofs for homes and commercial properties.</p>
         </div>
-
         <div class="service">
             <h2>Tear Off / Re-roof</h2>
-            <p>Need to replace an old or damaged roof? Our tear-off and re-roofing services ensure a fresh start with improved durability and performance.</p>
+            <p>Our tear-off and re-roofing services ensure a fresh start with improved durability.</p>
         </div>
-
         <div class="service">
             <h2>Cedar Shakes</h2>
-            <p>Enhance the beauty and durability of your roof with cedar shake roofing, known for its natural aesthetic and excellent insulation properties.</p>
+            <p>Enhance the beauty and durability of your roof with cedar shake roofing.</p>
         </div>
-
-        <div class="service">
-            <h2>Metal Roofing</h2>
-            <p>Our metal roofing options provide a sleek, modern look with superior durability, energy efficiency, and weather resistance.</p>
-        </div>
-
-        <div class="service">
-            <h2>Enviroshakes</h2>
-            <p>Eco-friendly and highly durable, enviroshakes offer the appearance of cedar shakes with enhanced longevity and environmental benefits.</p>
-        </div>
-
-        <div class="service">
-            <h2>Repairs</h2>
-            <p>From minor leaks to major damage, our roofing repair experts will restore your roof’s integrity quickly and efficiently.</p>
-        </div>
-
-        <div class="service">
-            <h2>Gutter Cleaning</h2>
-            <p>Clogged gutters can lead to serious damage. Our professional gutter cleaning services help keep your drainage system working smoothly.</p>
-        </div>
-        
     </div>
-    <div id="contact-us" class="contact-us">
-        <a class="mail-to" href="mailto:vancouverislandproroofs@gmail.com"><button class="cont-button">Contact Us!</button></a>
+    <div class="inner">
+        <form method="post" action="#">
+            <div class="fields">
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message"></li>
+            </ul>
+        </form>
     </div>
     <footer class="footer">
-       <div class="contact-item">
-           <a href="https://www.facebook.com/vancouver.island.pro.roofing/" target="_blank">
-               <img src="https://i.ibb.co/j9RK95LB/facebook-logo.png" alt="@">
-               <span>Vancouver Island Pro Roofing</span>
-           </a>
-       </div>
         <div class="contact-item">
-            <a href="tel:+12505088820">
-                <img src="https://i.ibb.co/j9GpFkPc/icons8-phone-48.png" alt="phone-icon" border="0">
-                <span>250-508-8820</span>
-             </a>
+            <a href="https://www.facebook.com/vancouver.island.pro.roofing/" target="_blank">
+                <span>Vancouver Island Pro Roofing</span>
+            </a>
         </div>
         <div class="contact-item">
-               
-               <span>vancouverislandproroofs@gmail.com</span>
-           </a>
+            <a href="tel:+12505088820">
+                <span>250-508-8820</span>
+            </a>
+        </div>
+        <div class="contact-item">
+            <span>vancouverislandproroofs@gmail.com</span>
         </div>
     </footer>
 </body>
