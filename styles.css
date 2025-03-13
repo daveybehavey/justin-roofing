@@ -352,11 +352,12 @@ margin-right: 15px;
     outline: 0;
     padding: 0 1em;
     text-decoration: none;
-    width: 25vw;
+    width: 100vw;
 }
 
 .field input {
     height: 2.75em;
+    width: 150px;
 }
 
 .field textarea {
