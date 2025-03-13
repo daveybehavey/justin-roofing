@@ -275,11 +275,10 @@ margin-right: 15px;
 }
 .inner {
     flex-wrap: wrap;
-    margin: 0px 10px 0px 10px;
+    padding: 30px 10px 15px 10px;
     width: 100vw;
     display: flex;
     flex-direction: row;
-    padding: 5em 0 3em 0;
 }
 
 .inner form {
