@@ -303,7 +303,7 @@ margin-right: 15px;
     vertical-align: baseline;
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% + 3em);
+    width: 100%;
     margin: -1.5em 0 2em -1.5em;
 }
 
