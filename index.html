@@ -2,15 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Vancouver Island Pro Roofing - Quality Roofing Services including new roofs, repairs, and gutter cleaning.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vancouver Island Pro Roofing</title>
+    <title>Vancouver Island Pro Roofing | Roofing Contractor on Vancouver Island</title>
+    <meta name="description" content="Vancouver Island Pro Roofing provides simple, reliable roofing services across Vancouver Island, including new roofs, repairs, and gutter cleaning.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="https://vancouverislandproroofing.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vancouver Island Pro Roofing">
+    <meta property="og:description" content="Simple roofing services across Vancouver Island. Request a quote for new roofs, repairs, or gutter cleaning.">
+    <meta property="og:url" content="https://vancouverislandproroofing.com/">
+    <meta property="og:image" content="https://vancouverislandproroofing.com/IMG_1579.webp">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Vancouver Island Pro Roofing">
+    <meta name="twitter:description" content="Simple roofing services across Vancouver Island. Request a quote for new roofs, repairs, or gutter cleaning.">
+    <meta name="theme-color" content="#0b0b0b">
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RoofingContractor",
+      "name": "Vancouver Island Pro Roofing",
+      "email": "mailto:vancouverislandproroofs@gmail.com",
+      "telephone": "+12505550199",
+      "areaServed": "Vancouver Island, BC",
+      "sameAs": [
+        "https://www.facebook.com/vancouver.island.pro.roofing/"
+      ],
+      "serviceType": [
+        "Roof Repair",
+        "New Roof Installation",
+        "Gutter Cleaning"
+      ]
+    }
+    </script>
 </head>
-<body bgcolor="black">
+<body>
     <header>
         <nav>
            <a id="header-logo" href="index.html">VANCOUVER ISLAND PRO ROOFING</a>
@@ -22,24 +51,28 @@
         </nav>
     </header>
      <div class="welcome-div">
-        <img class="image" src='IMG_1579.webp' alt="busicard">
+        <img class="image" src="IMG_1579.webp" alt="Business card for Vancouver Island Pro Roofing" loading="eager" decoding="async">
      </div>
      
      <div class="container" id="about">
         <div class="box box1">
             <div>
-                <h1>Professional Roofing Services on Vancouver Island</h1>
-                <h2>At VIP Roofing, we are proud to be a locally-owned and operated roofing company serving the beautiful communities of Vancouver Island. With years of experience in the roofing industry, our team is committed to delivering high-quality roofing solutions for your home or business.</h2>
-                <h2>Whether you need a roof repair, replacement, or new installation, we specialize in providing reliable, durable, and cost-effective services tailored to the unique needs of Vancouver Island's climate. We understand that your home or business is one of your most valuable assets, which is why we use only the best materials and the latest techniques to ensure long-lasting results.</h2>
+                <h1>Simple Roofing Services on Vancouver Island</h1>
+                <h2>Vancouver Island Pro Roofing keeps things simple: clear communication, quality work, and roofing services that help homeowners and businesses get the job done without the runaround.</h2>
+                <h2>Whether you need a roof repair, replacement, or new installation, we focus on durable, cost-effective solutions for Vancouver Island weather.</h2>
+                <div class="lead-cta">
+                    <a class="button" href="contact.html">Request a Quote</a>
+                    <a class="cta-link" href="tel:+12505550199">Call 250-555-0199</a>
+                </div>
             </div>
         </div>
         <div class="box box2">
             <div class="gallery">
-                <img src="Galleries/gllry-1.webp" alt="img" border="0">
-                <img src="Galleries/gllry-2.webp" alt="img" border="0">
-                <img src="Galleries/gllry-3.webp" alt="img" border="0">
-                <img src="Galleries/gllry-4.webp" alt="img" border="0">
-                <img class="last-img" src="Galleries/gllry-5.webp" alt="img" border="0">
+                <img src="Galleries/gllry-1.webp" alt="Roofing project photo 1" loading="lazy" decoding="async">
+                <img src="Galleries/gllry-2.webp" alt="Roofing project photo 2" loading="lazy" decoding="async">
+                <img src="Galleries/gllry-3.webp" alt="Roofing project photo 3" loading="lazy" decoding="async">
+                <img src="Galleries/gllry-4.webp" alt="Roofing project photo 4" loading="lazy" decoding="async">
+                <img class="last-img" src="Galleries/gllry-5.webp" alt="Roofing project photo 5" loading="lazy" decoding="async">
             </div>
         </div>
      </div>
@@ -48,15 +81,19 @@
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name">
+										<input type="text" name="name" id="name" autocomplete="name" required>
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email">
+										<input type="email" name="email" id="email" autocomplete="email" required>
+									</div>
+									<div class="field">
+										<label for="phone">Phone</label>
+										<input type="tel" name="phone" id="phone" autocomplete="tel" inputmode="tel" placeholder="Optional">
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<textarea name="message" id="message" rows="4" required></textarea>
 									</div>
 									<fieldset>
   <legend>What type of service(s) do you need?</legend>
@@ -86,21 +123,21 @@
     
     <footer class="footer">
        <div class="contact-item">
-           <a href="https://www.facebook.com/vancouver.island.pro.roofing/" target="_blank">
-               <img src="fb-logo.webp" alt="fb-logo">
+        <a href="https://www.facebook.com/vancouver.island.pro.roofing/" target="_blank" rel="noopener noreferrer">
+               <img src="fb-logo.webp" alt="Facebook icon">
                <span>Vancouver Island Pro Roofing</span>
            </a>
        </div>
            <div class="contact-item">
                <a href="mailto:vancouverislandproroofs@gmail.com">
-               <img src='mail.webp' alt="mail">
+               <img src="mail.webp" alt="Email icon">
                <span>vancouverislandproroofs@gmail.com</span>
            </a>
         </div>
         <div class="contact-item">
-            <a href="tel:+12505088820">
-                <img src="telephone.png" alt="phone" border="0">
-                <span>250-508-8820</span>
+            <a href="tel:+12505550199">
+                <img src="telephone.png" alt="Telephone icon">
+                <span>250-555-0199</span>
              </a>
         </div>
      

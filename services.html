@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <title>Roofing Services | Vancouver Island Pro Roofing</title>
+    <meta name="description" content="Explore simple roofing services from Vancouver Island Pro Roofing, including new roofs, repairs, re-roofing, and gutter cleaning.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="https://vancouverislandproroofing.com/services.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Roofing Services | Vancouver Island Pro Roofing">
+    <meta property="og:description" content="Simple roofing services on Vancouver Island, including repairs, re-roofing, and gutter cleaning.">
+    <meta property="og:url" content="https://vancouverislandproroofing.com/services.html">
+    <meta property="og:image" content="https://vancouverislandproroofing.com/IMG_1579.webp">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Roofing Services | Vancouver Island Pro Roofing">
+    <meta name="twitter:description" content="Simple roofing services on Vancouver Island, including repairs, re-roofing, and gutter cleaning.">
+    <meta name="theme-color" content="#0b0b0b">
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
 </head>
-<body bgcolor="black">
+<body>
     <header>
         <nav>
            <a id="header-logo" href="index.html">VANCOUVER ISLAND PRO ROOFING</a>
@@ -22,8 +34,7 @@
     </header>
     <div class="services-body">
         <div class="service">
-            <h1>At Vancouver Island Pro Roofing, we provide a comprehensive range of roofing services suited for the conditions of Vancouver Island. From new installations to repairs and ongoing maintenance, our team is equipped to deliver durable, high-quality solutions. Explore the list of services below to learn more about how we can assist with all your roofing needs.
-</h1>
+            <h1>At Vancouver Island Pro Roofing, we provide a comprehensive range of roofing services suited for the conditions of Vancouver Island. From new installations to repairs and ongoing maintenance, our team is equipped to deliver durable, high-quality solutions. Explore the list of services below to learn more about how we can assist with all your roofing needs.</h1>
         </div>
         <div class="service">
             <h2>New Roofs</h2>
@@ -52,75 +63,81 @@
 
         <div class="service">
             <h2>Repairs</h2>
-            <p>From minor leaks to major damage, our roofing repair experts will restore your roof’s integrity quickly and efficiently.</p>
+            <p>From minor leaks to major damage, our roofing repair experts will restore your roof's integrity quickly and efficiently.</p>
         </div>
 
         <div class="service">
             <h2>Gutter Cleaning</h2>
             <p>Clogged gutters can lead to serious damage. Our professional gutter cleaning services help keep your drainage system working smoothly.</p>
         </div>
-        
     </div>
     <div class="inner">
+        <div class="service page-intro">
+            <h1>Need Roofing Help?</h1>
+            <p>We keep the process simple. Send a message and we’ll help you figure out the right roofing service for your home or business.</p>
+        </div>
         <form method="post" action="https://formspree.io/f/xzzeboly">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name">
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email">
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-									<fieldset>
-  <legend>What type of service(s) do you need?</legend>
-  
-  <label>
-    <input type="radio" class="service-opt" name="service-opt" value="new_roof"> New Roof
-  </label><br>
+            <div class="fields">
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" autocomplete="name" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" autocomplete="email" required>
+                </div>
+                <div class="field">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" autocomplete="tel" inputmode="tel" placeholder="Optional">
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4" required></textarea>
+                </div>
+                <fieldset>
+                    <legend>What type of service(s) do you need?</legend>
 
-  <label>
-    <input type="radio" class="service-opt" name="service-opt" value="roof_repair"> Roof Repair
-  </label><br>
+                    <label>
+                        <input type="radio" class="service-opt" name="service-opt" value="new_roof"> New Roof
+                    </label><br>
 
-  <label>
-    <input type="radio" class="service-opt" name="service-opt" value="gutter_moss_cleaning"> Gutter/Moss Cleaning
-  </label><br>
-										<label>
-    <input type="radio" class="service-opt" name="service-opt" value="other"> Other
-  </label><br>
-</fieldset>
+                    <label>
+                        <input type="radio" class="service-opt" name="service-opt" value="roof_repair"> Roof Repair
+                    </label><br>
 
-								</div>
-								<ul class="actions">
-									<li><input class="button" type="submit" value="Send Message"></li>
-								</ul>
-							</form>
+                    <label>
+                        <input type="radio" class="service-opt" name="service-opt" value="gutter_moss_cleaning"> Gutter/Moss Cleaning
+                    </label><br>
+
+                    <label>
+                        <input type="radio" class="service-opt" name="service-opt" value="other"> Other
+                    </label><br>
+                </fieldset>
+            </div>
+            <ul class="actions">
+                <li><input class="button" type="submit" value="Send Message"></li>
+            </ul>
+        </form>
     </div>
     <footer class="footer">
        <div class="contact-item">
-           <a href="https://www.facebook.com/vancouver.island.pro.roofing/" target="_blank">
-               <img src="fb-logo.webp" alt="fb-logo">
+           <a href="https://www.facebook.com/vancouver.island.pro.roofing/" target="_blank" rel="noopener noreferrer">
+               <img src="fb-logo.webp" alt="Facebook icon">
                <span>Vancouver Island Pro Roofing</span>
            </a>
        </div>
 	    <div class="contact-item">
                <a href="mailto:vancouverislandproroofs@gmail.com">
-               <img src='mail.webp' alt="mail">
+               <img src="mail.webp" alt="Email icon">
                <span>vancouverislandproroofs@gmail.com</span>
            </a>
         </div>
         <div class="contact-item">
-            <a href="tel:+12505088820">
-                <img src="telephone.png" alt="phone-icon" border="0">
-                <span>250-508-8820</span>
+            <a href="tel:+12505550199">
+                <img src="telephone.png" alt="Telephone icon">
+                <span>250-555-0199</span>
              </a>
         </div>
-        
     </footer>
 </body>
 </html>
