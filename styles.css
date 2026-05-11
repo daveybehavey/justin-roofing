@@ -25,7 +25,7 @@ body {
     overflow-x: hidden;
     color: var(--text);
     background:
-        linear-gradient(rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.36)),
+        linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
         url("bg1.webp") center / cover fixed;
     font-family: "Electrolize", sans-serif;
     padding-top: 110px;
@@ -48,9 +48,12 @@ header {
     min-height: 110px;
     border-bottom: 1px solid var(--line);
     background:
-        linear-gradient(rgba(8, 8, 8, 0.92), rgba(8, 8, 8, 0.92)),
+        linear-gradient(rgba(8, 8, 8, 0.68), rgba(8, 8, 8, 0.68)),
         url("bg1.webp") center / cover;
+    background-position: center top;
+    background-size: cover;
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: saturate(110%) blur(1px);
 }
 
 header nav {
@@ -409,7 +412,7 @@ fieldset label {
     gap: 16px 22px;
     border-top: 1px solid var(--line);
     background:
-        linear-gradient(rgba(8, 8, 8, 0.92), rgba(8, 8, 8, 0.92)),
+        linear-gradient(rgba(8, 8, 8, 0.72), rgba(8, 8, 8, 0.72)),
         url("bg1.webp") center / cover;
 }
 
