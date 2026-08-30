@@ -1,29 +1,48 @@
+<div align="center">
+
 # Vancouver Island Pro Roofing
 
-**Responsive lead-generation website for a Vancouver Island roofing contractor.**
+**Fast, responsive lead-generation website for a Vancouver Island roofing contractor.**
 
-Live site: https://vancouverislandproroofing.com
+[Live Site](https://vancouverislandproroofing.com) · [EuroDigital Portfolio](https://eurodigital.ca)
 
-This project was built as a lightweight, performance-focused small-business website designed to turn local search traffic into calls and quote requests.
+</div>
+
+---
+
+## Overview
+
+A lightweight client website built to turn local search and referral traffic into calls and quote requests. The project prioritizes clarity, mobile usability, fast delivery, local SEO fundamentals, and a simple contact path instead of unnecessary application complexity.
 
 ## Highlights
 
 - Responsive multi-page business website
-- Service and project-gallery content
-- Contact/lead-generation flow using Formspree
-- SEO-friendly page metadata, `robots.txt`, and XML sitemap
+- Service pages and project-gallery content
+- Contact/lead-generation flow through Formspree
+- SEO-friendly metadata, `robots.txt`, and XML sitemap
 - Optimized WebP imagery
-- Cloudflare hosting/edge delivery
-- Custom 404 page and production-ready static structure
+- Cloudflare hosting and edge delivery
+- Custom 404 page
+- Straightforward static architecture for reliability and maintainability
 
 ## Stack
 
-- HTML
-- CSS
-- JavaScript
-- Formspree
-- Cloudflare
+| Area | Technology |
+| --- | --- |
+| Frontend | HTML, CSS, JavaScript |
+| Forms | Formspree |
+| Hosting | Cloudflare |
+| Media | Optimized WebP assets |
+| SEO | Metadata, sitemap, robots directives |
 
 ## Project Context
 
-Client-facing web project delivered through EuroDigital for a local service business. The emphasis was on fast loading, clear service information, mobile usability, local SEO fundamentals, and a straightforward path to contact the business.
+Client-facing work delivered through EuroDigital for a local service business. The site demonstrates that the right solution is not always the largest stack: for this use case, a compact static implementation provides speed, maintainability, and a clear conversion path.
+
+---
+
+<div align="center">
+
+**Live:** https://vancouverislandproroofing.com
+
+</div>
