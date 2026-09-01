@@ -12,45 +12,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <header>
-        <nav>
+        <nav aria-label="Primary">
             <a id="header-logo" href="index.html">VANCOUVER ISLAND PRO ROOFING</a>
             <ul class="navbar-links">
                 <li><a class="nav-link" href="index.html">About</a></li>
                 <li><a class="nav-link" href="services.html">Services</a></li>
                 <li><a class="nav-link" href="contact.html">Contact Us</a></li>
             </ul>
+            <div class="header-cta" aria-label="Quick contact">
+                <a class="header-cta-call" href="tel:+12505088820">Call 250-508-8820</a>
+                <a class="header-cta-quote button" href="contact.html">Request a Quote</a>
+            </div>
         </nav>
     </header>
+    <main id="main-content">
     <div class="inner">
         <div class="service page-intro">
             <h1>Page Not Found</h1>
-            <p>The page you were looking for does not exist. Head back home or send a message if you need roofing help.</p>
+            <p>The page you were looking for does not exist. Head back home, browse services, or send a message if you need roofing help.</p>
             <div class="lead-cta">
                 <a class="button" href="index.html">Back Home</a>
                 <a class="cta-link" href="contact.html">Contact Us</a>
+                <a class="cta-link" href="tel:+12505088820">Call 250-508-8820</a>
             </div>
         </div>
     </div>
+    </main>
     <footer class="footer">
        <div class="contact-item">
            <a href="https://www.facebook.com/vancouver.island.pro.roofing/" target="_blank" rel="noopener noreferrer">
-               <img src="fb-logo.webp" alt="Facebook icon">
-               <span>Vancouver Island Pro Roofing</span>
+               <img src="fb-logo.webp" alt="" width="20" height="20">
+               <span>Vancouver Island Pro Roofing on Facebook</span>
            </a>
        </div>
        <div class="contact-item">
                <a href="mailto:vancouverislandproroofs@gmail.com">
-               <img src="mail.webp" alt="Email icon">
+               <img src="mail.webp" alt="" width="20" height="20">
                <span>vancouverislandproroofs@gmail.com</span>
            </a>
         </div>
         <div class="contact-item">
-            <a href="tel:+12505550199">
-                <img src="telephone.png" alt="Telephone icon">
-                <span>250-555-0199</span>
+            <a href="tel:+12505088820">
+                <img src="telephone.png" alt="" width="20" height="20">
+                <span>250-508-8820</span>
              </a>
         </div>
     </footer>
+    <div class="mobile-cta-bar" role="navigation" aria-label="Mobile contact actions">
+        <a class="mobile-cta-call" href="tel:+12505088820">Call Now</a>
+        <a class="mobile-cta-quote" href="contact.html">Get a Quote</a>
+    </div>
 </body>
 </html>
