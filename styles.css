@@ -380,11 +380,18 @@ header .nav-link:focus-visible {
 }
 
 #quote-form {
-    scroll-margin-top: 170px;
+    scroll-margin-top: 180px;
 }
 
 .service[id] {
-    scroll-margin-top: 170px;
+    scroll-margin-top: 180px;
+}
+
+@media (max-width: 640px) {
+    #quote-form,
+    .service[id] {
+        scroll-margin-top: 130px;
+    }
 }
 
 .lead-cta {
@@ -652,13 +659,13 @@ fieldset label {
 
 @media (max-width: 640px) {
     body {
-        padding-top: 168px;
+        padding-top: 118px;
         padding-bottom: 72px;
     }
 
     header,
     header nav {
-        min-height: 168px;
+        min-height: 118px;
     }
 
     header nav {
@@ -666,19 +673,20 @@ fieldset label {
     }
 
     header nav ul {
-        gap: 6px 12px;
+        gap: 8px 14px;
     }
 
     header .nav-link {
         padding: 5px 6px;
     }
 
-    .header-cta-quote {
-        min-height: 44px;
+    /* Sticky mobile bar covers call/quote; keep header compact. */
+    .header-cta {
+        display: none;
     }
 
     .welcome-div {
-        min-height: calc(100vh - 168px);
+        min-height: calc(100vh - 118px);
         padding: 20px 14px;
     }
 
